@@ -1,23 +1,13 @@
+Config:
+ OutputMode: 3
+ OutputFile: mastererror.log
+ PrintOffsets: false
+ ExtraCols: 20
+ ExtraRows: 10
+ #[KeyCode, ScriptFile]
+KeyBindings:
+ #End}
 PersistScripts:
- - [PiratePerfectionInitialized, trainer\assets\_pirateperfectionInit.luac] # - PP INIT
- - [ConfigScriptInitialized, trainer\assets\_userconfig.lua] # - USER CONFIGURATION
- - [AutoOnCheatsPreGame, trainer\assets\_autooncheatspregame.lua] # - AUTOCHEATS IN MAIN MENU
- - [AutoOnCheatsInGame, trainer\assets\DerpCheats.lua]
- - [persistentSPOOF, trainer\assets\_spoof.lua] # - SPOOF/FAKE NAME STORED HERE
- - [persistentDLC, trainer\assets\_dlc.lua] # - UNLOCKS ALL DLCS
- - [zinspect, 'trainer\assets\common.lua'] # - PocoHud Base
- - [PocoHud, 'trainer\assets\poco_hud2.lua'] # - PocoHud Activator
-# - [FavorsInf, trainer\assets\FavorsInf.lua]
-# - [FavorsUnlimit, trainer\assets\FavorsUnlimit.lua]
-# - [FavorsFree, trainer\assets\FavorsFree.lua]
- - [ExtraSlots, trainer\assets\Slots.lua]
-# - [SellHostage, trainer\assets\_hostages.lua]
- - [WeapVectors, trainer\assets\WeapVec.lua]
+
 PostRequireScripts:
- - ['lib/setups/gamesetup', trainer\assets\__globalrequires.lua]
- - ['lib/setups/setup', trainer\assets\__globalrequires.lua]
-# - ['lib/managers/weaponfactorymanager', trainer\assets\pScript.lua]
-# - ['lib/managers/mission/elementareatrigger', trainer\assets\SellDeadPeople.lua]
- - ['lib/managers/weaponfactorymanager', trainer\assets\WeapMods.lua]
- - ['lib/managers/statisticsmanager', trainer\assets\steam_skill.lua]
- - ['lib/managers/weaponfactorymanager', trainer\assets\AKSITE.lua]
+
